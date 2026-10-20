@@ -1,22 +1,29 @@
-#Maqueta de Inventario
-Sistema de inventario y facturacion hecho con Django/ Stock and bill system made with Django
+# Inventario Django · Inventory & Billing System
 
-El sistema permite realizar operaciones basicas de inventario y facturacion:
+Sistema de inventario y facturación hecho con Django. / Stock and billing system built with Django.
 
--Productos, clientes, proveedores, pedidos
+## Funcionalidades / Features
+- Productos, clientes, proveedores y pedidos / Products, customers, suppliers and orders
+- Reportes de facturas en PDF y CSV / Invoice reports in PDF and CSV
+- Usuarios con varios niveles de acceso / Multi-level user access
+- Cambio de IVA y otras opciones generales / Configurable VAT and general options
 
--Reportes de facturas en PDF Y CSV
+## Instalación / Getting started
+```bash
+git clone https://github.com/dedaFSdeveloper/inventario-django.git
+cd inventario-django
+pip install django==2.1.3 reportlab==3.3.0 xhtml2pdf==0.2.3
+python manage.py runserver
+```
+Ejecutá el último comando desde la carpeta que contiene `manage.py`. / Run the last command from the folder containing `manage.py`.
 
--Ingreso de usuarios en varios niveles
+## Dependencias / Dependencies
+Django 2.1.3 · reportlab 3.3.0 · xhtml2pdf 0.2.3
 
--Cambio de IVA y otras opciones generales
 
-Se puede correr en local facilmente usando el comando "python manage.py runserver" dentro de la carpeta raiz
+---
 
-Usuario y contraseña de prueba disponibles en la demo / a pedido.
+## 👤 Autor / Author
 
-# Dependencias (con sus versiones):
-
-Django (2.1.3)
-reportlab (3.3.0)
-xhtml2pdf (0.2.3)
+**Ezequiel Molinari** — Full Stack Developer · AI & Automation  
+📫 [molinariezequiel2@gmail.com](mailto:molinariezequiel2@gmail.com) · [LinkedIn](https://www.linkedin.com/in/ezmolinari12/) · [GitHub](https://github.com/dedaFSdeveloper) · [libreriacrayon.com.ar](https://libreriacrayon.com.ar)
